@@ -1,0 +1,49 @@
+{
+  "rewrites": [
+    {
+      "source": "/assets/css/styles.css",
+      "destination": "/styles.css"
+    },
+    {
+      "source": "/assets/js/content.js",
+      "destination": "/content.js"
+    },
+    {
+      "source": "/assets/js/main.js",
+      "destination": "/main.js"
+    },
+    {
+      "source": "/assets/img/anirudh-jalan.png",
+      "destination": "/anirudh-jalan.png"
+    },
+    {
+      "source": "/assets/img/favicon.svg",
+      "destination": "/favicon.svg"
+    },
+    {
+      "source": "/assets/img/logo.png",
+      "destination": "/logo.png"
+    },
+    {
+      "source": "/assets/img/ops-exterior.png",
+      "destination": "/ops-exterior.png"
+    },
+    {
+      "source": "/assets/img/ops-filling.png",
+      "destination": "/ops-filling.png"
+    },
+    {
+      "source": "/assets/img/ops-plant.png",
+      "destination": "/ops-plant.png"
+    },
+    {
+      "source": "/assets/img/social-card.svg",
+      "destination": "/social-card.svg"
+    },
+    {
+      "source": "/assets/img/udbhav-jalan.png",
+      "destination": "/udbhav-jalan.png"
+    }
+  ]
+}
+ x
