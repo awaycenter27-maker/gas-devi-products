@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Devi Gas Products">
+  <rect width="1200" height="630" fill="#0C1826"/>
+  <g stroke="#1B3148" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/><line x1="0" y1="472" x2="1200" y2="472"/>
+  </g>
+  <g transform="translate(80 90)">
+    <rect x="0" y="0" width="92" height="104" rx="8" fill="none" stroke="#CBA76A" stroke-width="3"/>
+    <text x="14" y="34" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#CBA76A">8</text>
+    <text x="46" y="80" font-family="Georgia, serif" font-size="60" font-weight="700" fill="#FFFFFF" text-anchor="middle">O</text>
+  </g>
+  <text x="200" y="150" font-family="Georgia, serif" font-size="34" font-weight="600" fill="#FFFFFF">Devi Gas Products</text>
+  <text x="200" y="188" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#B49567">INDUSTRIAL GASES  &#183;  KOLKATA</text>
+  <text x="80" y="360" font-family="Georgia, serif" font-size="72" font-weight="600" fill="#FFFFFF">Industrial Oxygen.</text>
+  <text x="80" y="446" font-family="Georgia, serif" font-size="72" font-weight="600" fill="#AEBAC6">Four Decades of Experience.</text>
+  <rect x="80" y="520" width="54" height="4" fill="#B08A4A"/>
+  <text x="80" y="566" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#AEBAC6">Manufacturers of industrial oxygen. Suppliers of nitrogen and other industrial gases.</text>
+</svg>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact and Request a Quote | Devi Gas Products</title>
+  <meta name="description" content="Request a quote for industrial oxygen, nitrogen or other industrial gases from Devi Gas Products. Tell us the gas, quantity and delivery location." />
+  <link rel="canonical" href="https://www.devigasproducts.com/contact.html" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Contact | Devi Gas Products" />
+  <meta property="og:description" content="Request a quote for industrial oxygen, nitrogen and other industrial gases." />
+  <meta property="og:image" content="assets/img/social-card.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <nav class="nav" data-open="false" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Devi Gas Products home">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Devi Gas Products" width="575" height="612" />
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu"><span></span></button>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="factories.html">Factories</a></li>
+          <li><a href="group.html">Group</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <div class="nav__cta"><a class="btn" href="contact.html">Request a quote</a></div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-intro">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / Contact</nav>
+      <h1>Request a quote</h1>
+      <p>Tell us what you need and we will come back to you. The more you can share about the gas, the quantity and where it needs to go, the quicker we can give you a useful answer.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="formwrap">
+
+        <aside class="rail">
+          <div class="rail__item">
+            <h3>Email</h3>
+            <p><a class="textlink" data-email href="#">devigasproducts@gmail.com</a></p>
+          </div>
+          <div class="rail__item">
+            <h3>Where we are</h3>
+            <p>Facilities at Ghusri and Junglepur in Howrah, and at Durgapur, West Bengal.</p>
+          </div>
+          <div class="rail__item">
+            <h3>What to include</h3>
+            <p>The gas you need, an approximate quantity, and your delivery location. If you are not sure which gas, describe the job and we will advise.</p>
+          </div>
+          <div class="rail__item">
+            <h3>Manufactured or supplied</h3>
+            <p>Oxygen is manufactured by us. Nitrogen and other gases are supplied through our network. We will confirm the source when we reply.</p>
+          </div>
+        </aside>
+
+        <div class="form">
+          <div class="alert alert--ok" id="form-ok" role="status" aria-live="polite">
+            <span class="alert__text"></span>
+          </div>
+          <div class="alert alert--err" id="form-err" role="alert" aria-live="assertive">
+            <span class="alert__text"></span>
+          </div>
+
+          <form id="enquiry-form" novalidate>
+            <div class="grid-2">
+              <div class="field">
+                <label for="name">Your name <span class="req" aria-hidden="true">*</span></label>
+                <input class="input" type="text" id="name" name="name" autocomplete="name" required />
+                <p class="err" id="err-name">Please tell us your name.</p>
+              </div>
+              <div class="field">
+                <label for="company">Company</label>
+                <input class="input" type="text" id="company" name="company" autocomplete="organization" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="contact">Phone or email <span class="req" aria-hidden="true">*</span></label>
+              <input class="input" type="text" id="contact" name="contact" inputmode="email" autocomplete="email" placeholder="A number or email we can reply to" required />
+              <p class="err" id="err-contact">Please add a phone number or email so we can reply.</p>
+            </div>
+
+            <div class="grid-2">
+              <div class="field">
+                <label for="gas">Gas required</label>
+                <select class="select" id="gas" name="gas">
+                  <option value="">Select a gas</option>
+                  <option value="oxygen">Industrial Oxygen (manufactured by us)</option>
+                  <option value="nitrogen">Nitrogen (supplied by us)</option>
+                  <option value="other-gases">Other industrial gases</option>
+                  <option value="unsure">Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="quantity">Quantity</label>
+                <input class="input" type="text" id="quantity" name="quantity" placeholder="e.g. number of cylinders" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="location">Delivery location</label>
+              <input class="input" type="text" id="location" name="location" placeholder="City or area" />
+            </div>
+
+            <div class="field">
+              <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea class="textarea" id="message" name="message" required placeholder="Tell us about your requirement"></textarea>
+              <p class="err" id="err-message">Please add a short message about what you need.</p>
+            </div>
+
+            <!-- spam honeypot: hidden from people, tempting to bots -->
+            <div class="hp" aria-hidden="true">
+              <label for="company_url">Leave this field empty</label>
+              <input type="text" id="company_url" name="company_url" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <div class="field form__submit">
+              <button class="btn" type="submit" id="form-submit"><span class="label">Send enquiry</span></button>
+            </div>
+            <p class="formnote">Submitting opens your email app with the details filled in, addressed to us. Nothing is stored on this website.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <a class="foot__logo" href="index.html" aria-label="Devi Gas Products home"><img src="assets/img/logo.png" alt="Devi Gas Products" width="575" height="612" /></a>
+        <p>Manufacturers of industrial oxygen. Suppliers of nitrogen and other industrial gases. Based in Kolkata, West Bengal.</p>
+      </div>
+      <div class="foot"><h4>Explore</h4><ul><li><a href="about.html">About us</a></li><li><a href="products.html">Products</a></li><li><a href="factories.html">Our factories</a></li><li><a href="group.html">Group companies</a></li></ul></div>
+      <div class="foot"><h4>Company</h4><ul><li><a href="leadership.html">Leadership</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html">Request a quote</a></li></ul></div>
+      <div class="foot"><h4>Get in touch</h4><ul><li><a data-email href="#">devigasproducts@gmail.com</a></li><li><span class="measure-note">West Bengal, India</span></li></ul></div>
+    </div>
+    <div class="foot__bottom">
+      <span>&copy; <span data-year>2026</span> Devi Gas Products Private Limited. All rights reserved.</span>
+      <span class="foot__made">Industrial gases, since the 1980s.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
